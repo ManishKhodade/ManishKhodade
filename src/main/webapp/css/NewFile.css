@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.container
+{
+	margin-left: 600px;
+	padding:20px;
+	border: 2px solid;
+	width:350px;
+	margin-top: 50px; 
+	background-color: aqua;
+	border-radius: 15px;
+	
+}
+.btn
+{
+	width: 125px;
+	height: 30px;
+	margin-left: 100px;
+	border-radius: 9px;
+}

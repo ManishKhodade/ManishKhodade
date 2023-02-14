@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url("https://www.google.com/search?q=background+images+hd&tbm=isch&ved=2ahUKEwi3i5PepJT9AhXAFbcAHckRA3YQ2-cCegQIABAA&oq=background+images+hd&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BwgjEOoCECc6BAgAEEM6BwgAELEDEEM6CAgAELEDEIMBUPgEWIc9YKE_aAFwAHgEgAGHBIgB9ieSAQwwLjI0LjMuMi4wLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=CB3rY7fnJcCr3LUPyaOMsAc&bih=714&biw=1536#imgrc=KGQ-IVlk3e6TzM");
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid lightgray;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

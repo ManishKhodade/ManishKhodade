@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/NewFile.css">
+  <title>Alumni Information Form</title>
+</head>
+<body>
+  <div class="container">
+  
+    <form action ="Alumni_Controller" method ="post">
+      <h2>Alumni Information Form</h2>
+      <div class="form-group">
+        <label for="rollno">Register No:</label>
+        <input type="number" id="Reg_No" name="rollno" required placeholder="">
+      </div> <br>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="number">Phone Number:</label>
+        <input type="number" id="number" name="number" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="adhar">Aadhar No:</label>
+        <input type="text" id="adhar" name="adhar" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="stream">Stream:</label>
+        <input type="text" id="stream" name="stream" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="join-year">Joining Year:</label>
+        <input type="date" id="join-year" name="join-year" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="pass-year">Pass Out Year:</label>
+        <input type="date" id="pass-year" name="pass-year" required>
+      </div> <br>
+      <div class="form-group">
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" name="profession" required>
+      </div> <br>
+      <div class="form-group">
+      
+      
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+      </div> <br>
+      
+      <button class="btn" type="submit">Submit</button>
+      
+    </form>
+  </div>
